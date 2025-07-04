@@ -23,6 +23,6 @@ The goal is to identify the best-performing model while minimizing **false negat
    - Achieved lower false negative rate compared to other models
 
 ## Note
-This is an academic project for skill development in classification, model evaluation, and handling imbalanced data.
+This is an academic project for skill development in machine learning.
 Due to limited time for experimentation, the SVM model was tuned with fewer hyperparameter options. 
 With a more extensive search space, it is likely that the performance could be further optimized.
