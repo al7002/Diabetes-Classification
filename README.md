@@ -3,11 +3,11 @@ Diabetes classification project with model comparison and SMOTE-based imbalance 
 This project focuses on building and comparing machine learning models to classify whether a person has diabetes or not. 
 The goal is to identify the best-performing model while minimizing **false negatives**, which is crucial in medical diagnosis.
 
-# Dataset
+## Dataset
 - Source: [Pima Indian Diabetes Dataset](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
 - Selected features: `Glucose`, `BMI`, `Age`, `Insulin`
 
-# Workflow
+## Workflow
 1. Preprocessing
    - Impute missing values (zeros replaced with median)
    - Feature selection based on importance
@@ -22,7 +22,7 @@ The goal is to identify the best-performing model while minimizing **false negat
    - Random Forest with tuned parameters gave the best balance between recall and precision
    - Achieved lower false negative rate compared to other models
 
-# Note
+## Note
 This is an academic project for skill development in classification, model evaluation, and handling imbalanced data.
 Due to limited time for experimentation, the SVM model was tuned with fewer hyperparameter options. 
 With a more extensive search space, it is likely that the performance could be further optimized.
