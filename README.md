@@ -1,5 +1,4 @@
 # Diabetes-Classification
-Diabetes classification project with model comparison and SMOTE-based imbalance handling.
 This project focuses on building and comparing machine learning models to classify whether a person has diabetes or not. 
 The goal is to identify the best-performing model while minimizing **false negatives**, which is crucial in medical diagnosis.
 
